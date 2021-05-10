@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Document</title>
+          <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+          <section>
+                    <div class="text">
+                              <h1 style="--i:0.5">
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                              </h1>
+                              <h1 style="--i:-1.5">
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                              </h1>
+                              <h1 style="--i:0.5">
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                              </h1>
+                              <h1>
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                              </h1>
+                              <h1 style="--i:0.1">
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                              </h1>
+                              <h1 style="--i:2.5">
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                              </h1>
+                              <h1 style="--i:1.5">
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                              </h1>
+                              <h1>
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                              </h1>
+                              <h1>
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                              </h1>
+                              <h1 style="--i:0.5">
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                                        <span>Lorem, ipsum dolor.</span>
+                              </h1>
+                    </div>
+          </section>
+
+          <script>
+                    const position = document.documentElement
+                    position.addEventListener('mousemove',(e)=>{
+                                                            // variable - which direction - % or px
+                              position.style.setProperty('--x', e.clientX + 'px')
+                    })
+          </script>
+</body>
+</html>
